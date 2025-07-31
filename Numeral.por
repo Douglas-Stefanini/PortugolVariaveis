@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-      inteiro valor1, valor2, teste1, teste2, teste3
+      inteiro valor1, valor2, teste1, teste2, teste3, teste5
       real teste4
 
       escreva("Digite dois valores: \n")
@@ -10,11 +10,13 @@ programa {
       teste2 = valor1 - valor2
       teste3 = valor1 * valor2
       teste4 = valor1 / valor2
+      teste5 = valor1 % valor2 
 
 
       escreva("O resultado é: ", teste1, " \n")
       escreva("O resultado é: ", teste2, " \n")
       escreva("O resultado é: ", teste3, " \n")
       escreva("O resultado é: ", teste4, " \n")
+      escreva("O resultado é: ", teste5, " \n")
   }
 }
